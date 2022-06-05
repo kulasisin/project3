@@ -9,28 +9,36 @@
       src="https://kit.fontawesome.com/f1f29270e9.js"
       crossorigin="anonymous"
     ></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/all.js"></script>
     <title>六角西餐廳</title>
   </head>
   <body>
     <div class="header">
       <div class="container">
-        <h1>
-          <a href="#">六角西餐廳</a>
-        </h1>
+        <div class="wrap">
+          <h1>
+            <a href="#">六角西餐廳</a>
+          </h1>
 
-        <ul class="menu">
-          <li><a href="index.html">特色</a></li>
-          <li><a href="#">主廚</a></li>
-          <li><a href="#">地圖</a></li>
-        </ul>
+          <ul class="menu">
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="cart.html">商品</a></li>
+            <li><a href="login.html">登入</a></li>
+          </ul>
+        </div>
+        <a href="#" class="menu-fold"><i class="fa-solid fa-bars"></i></a>
       </div>
     </div>
-
     <div class="banner">
       <div class="banner-txt">
         <h2><span>咬一口</span><span>就無法忘懷的漢堡</span></h2>
         <p>七夕絕對無法錯過的好滋味</p>
-        <p>六角大漢堡</p>
+
+        <p>
+          <i class="fa-solid fa-utensils"></i> 六角大漢堡
+          <i class="fa-solid fa-utensils"></i>
+        </p>
       </div>
     </div>
     <div class="login">
@@ -55,8 +63,8 @@
 
             <a href="#">忘記密碼？</a>
             <div class="button">
-              <button>註冊</button>
-              <button type="submit">登入</button>
+              <a href="register.html" class="go-register">註冊</a>
+              <a href="#" class="submit">登入</a>
             </div>
           </form>
         </div>
@@ -81,14 +89,19 @@
           </ul>
         </div>
         <div class="links">
-          <h3>六角西餐廳</h3>
+          <div class="links-title">
+            <h3>六角西餐廳</h3>
+          </div>
+
           <ul>
             <li>
               <a href="#"><i class="fa-brands fa-google-plus-square"></i></a>
             </li>
-            <li><a href="#"></a><i class="fa-brands fa-twitter-square"></i></li>
             <li>
-              <a href="#"></a><i class="fa-brands fa-facebook-square"> </i>
+              <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook-square"> </i></a>
             </li>
           </ul>
         </div>
