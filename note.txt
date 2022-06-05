@@ -1,0 +1,7 @@
+fontawesome: google:fa-brands fa-google-plus-square twitter:fa-brands
+fa-twitter-square facebook:fa-brands fa-facebook-square burger:fa-solid
+fa-burger-lettuce 
+放大鏡:
+<i class="fa-solid fa-magnifying-glass"></i> 
+購物車:
+<i class="fa-solid fa-cart-shopping"></i>
