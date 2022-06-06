@@ -181,10 +181,8 @@ a {
 .menu-fold {
   font-size: 24px;
   color: #fff;
-  position: absolute;
   right: 0;
   display: none;
-  margin-right: 98px;
   margin-top: 18px;
 }
 
@@ -194,6 +192,7 @@ a {
   }
   .header .container {
     display: flex;
+    justify-content: space-between;
   }
   .menu-fold {
     display: block;

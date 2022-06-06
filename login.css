@@ -195,6 +195,7 @@ a {
   }
   .header .container {
     display: flex;
+    justify-content: space-between;
   }
   .menu-fold {
     display: block;
@@ -289,7 +290,7 @@ a {
   overflow: hidden;
   width: 244px;
   height: 48px;
-  background-image: url(https://yunnei.github.io/RWD_final/images/logo_l@svg.svg);
+  background-image: url(./assets/logo_l@svg.svg);
   margin: 0 auto;
   text-align: center;
 }
